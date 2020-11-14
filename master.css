@@ -1,0 +1,397 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    color: #ffff;
+}
+
+
+.cabecera{
+    width: 100%;
+    height: 80px;
+    background: rgb(54, 54, 54);
+}
+
+
+#logo-tauronrx{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 30px;
+
+}
+
+.container-cabecera{
+    display: flex;
+}
+
+.container-cabecera > p{
+    margin: 0;
+}
+
+.enlace-barra{
+    text-decoration: none;
+    color: #ffff;
+    font-family: fantasy;
+    margin-left: 1150px;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.enlace-barra2{
+    text-decoration: none;
+    color: #ffff;
+    font-family: fantasy;
+    margin-left: 1280px;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.enlace-barra3{
+    text-decoration: none;
+    color: #ffff;
+    font-family: fantasy;
+    margin-left: 1050px;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.container-contenido{
+    background: rgb(32, 32, 32);
+    width: 100%;
+    height: 3000px;
+}
+
+#titulo-pagina{
+    text-align: center;
+    margin-top: 0%;
+    font-size: 100px;
+    font-family: 'Do Hyeon', sans-serif;
+    color: rgb(255, 255, 134);
+}
+
+#imagen{
+    margin-left: 38%;
+}
+
+
+
+
+
+a:hover{
+    opacity: .6;
+    transition: all .3s;
+}
+
+#titulo-pagina:hover{
+    color: pink;
+    transition: all .3s;
+}
+
+
+.parte-final-inicio{
+    position: absolute;
+    top: 380%;
+    font-family: fantasy;
+    left: 30%;
+}
+
+/*Apartir de aquí empieza la lista*/
+
+.lista-anime{
+    font-family: fantasy;
+    position: absolute;
+    left: 15%;
+    width: 1000px;
+    height: 2500px;
+    border-style: solid;
+    border-color: red;
+    
+}
+
+.nombre-anime{
+    margin-left: 30px;
+    position: absolute;
+    top: 2%;
+    font-size: 120%;
+}
+
+#capítulos{
+    position: absolute;
+    left: 70%;
+    top: 2%;
+    font-size: 120%;
+}
+
+#linea{
+    top: 5%;
+    position: relative;
+    
+}
+
+.animes-enlistados{
+    position: absolute;
+    top: 7%;
+    left: 2%;
+    display: flex;
+    
+}
+
+.nombre-anime-lista{
+    position: relative;
+    left: 30%;
+    margin-top: 10%;
+}
+
+.nombre-anime-lista:hover{
+    color: pink;
+}
+
+.capitulos-anime-lista{
+    position: relative;
+    left: 150%;
+    margin-top: 10%;
+}
+
+#linea2{
+    position: relative;
+    top: 11%;
+    
+}
+
+#imagen-hataraku{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+#nombre-anime-hataraku{
+    position: absolute;
+    top: 17%;
+    left: 26%;
+}
+
+#nombre-anime-hataraku:hover{
+    color: pink;
+}
+
+#capitulos-hataraku{
+    position: absolute;
+    top: 17%;
+    left: 70%;
+}
+
+#linea3{
+    position: relative;
+    top: 21%;
+}
+
+#imagen-one-punch-man-lista{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+#nombre-lista-onepunch{
+    position: absolute;
+    top: 27%;
+    left: 26%;
+}
+
+#nombre-lista-onepunch:hover{
+    color: pink;
+}
+
+#capitulos-lista-onepunch{
+    position: absolute;
+    top: 27%;
+    left: 70%;
+}
+
+#linea4{
+    position: relative;
+    top: 31%;
+}
+
+#imagen-lista-mob{
+    position: absolute;
+    top: 34%;
+    left: 5%;
+}
+
+#nombre-lista-mob{
+    position: absolute;
+    top: 36%;
+    left: 26%;
+}
+
+#nombre-lista-mob:hover{
+    color: pink;
+}
+
+#capitulos-lista-mob{
+    position: absolute;
+    top: 36%;
+    left: 70%;
+}
+
+#linea5{
+    position: relative;
+    top: 39%;
+}
+
+#imagen-lista-youkoso{
+    position: absolute;
+    top: 43%;
+    left: 5%;
+}
+
+#nombre-lista-youkoso{
+    position: absolute;
+    top: 45%;
+    left: 26%;
+}
+
+#nombre-lista-youkoso:hover{
+    color: pink;
+}
+
+#capitulos-lista-youkoso{
+    position: absolute;
+    top: 45%;
+    left: 70%;
+}
+
+#linea6{
+    position: relative;
+    top: 48%;
+}
+
+#imagen-lista-nogame{
+    position: absolute;
+    top: 52%;
+    left: 5%;
+}
+
+#nombre-lista-nogame{
+    position: absolute;
+    top: 54%;
+    left: 26%;
+}
+
+#nombre-lista-nogame:hover{
+    color: pink;
+}
+
+#capitulos-lista-nogame{
+    position: absolute;
+    top: 54%;
+    left: 70%;
+}
+
+#linea7{
+    position: relative;
+    top: 57%;
+}
+
+#imagen-lista-charlotte{
+    position: absolute;
+    top: 61%;
+    left: 3%;
+}
+
+#nombre-lista-charlotte{
+    position: absolute;
+    top: 62.5%;
+    left: 26%;
+}
+
+#nombre-lista-charlotte:hover{
+    color: pink;
+}
+
+#capitulos-lista-charlotte{
+    position: absolute;
+    top: 62.5%;
+    left: 70%;
+}
+
+#linea8{
+    position: relative;
+    top: 64%;
+}
+
+#imagen-lista-samurai-c{
+    position: absolute;
+    top: 68%;
+    left: 5%;
+}
+
+#nombre-lista-samurai-c{
+    position: absolute;
+    top: 70%;
+    left: 26%;
+}
+
+#nombre-lista-samurai-c:hover{
+    color: pink;
+}
+
+#capitulos-lista-samurai-c{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+
+#linea9{
+    position: relative;
+    top: 72%;
+}
+
+#imagen-lista-dororo{
+    position: absolute;
+    top: 77%;
+    left: 5%;
+}
+
+#nombre-lista-dororo{
+    position: absolute;
+    top: 79%;
+    left: 26%;
+}
+
+#nombre-lista-dororo:hover{
+    color: pink;
+}
+
+#capitulos-lista-dororo{
+    position: absolute;
+    top: 79%;
+    left: 70%;
+}
+
+#linea10{
+    position: relative;
+    top: 80%;
+}
+
+#imagen-lista-kimetsu{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+}
+
+#nombre-lista-kimetsu{
+    position: absolute;
+    top: 87%;
+    left: 26%;
+}
+
+#nombre-lista-kimetsu:hover{
+    color: pink;
+}
+
+#capitulos-lista-kimetsu{
+    position: absolute;
+    top: 87%;
+    left: 70%;
+}

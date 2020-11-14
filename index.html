@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Anime, ver, gratis">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <title>YoVeoAnime</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="mangekyo-sharingan.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+
+    <script>
+        /**
+        * Array con las imagenes que se iran mostrando en la web
+        */
+        var imagenes=new Array(
+            'noragami-4k.jpg',
+            'goku-4k.jpg',
+            'naruto.jpeg',
+            'dios-itachi.png',
+            'madara.jpg'
+        );
+     
+        /**
+        * Funcion para cambiar la imagen
+        */
+        function rotarImagenes()
+        {
+            // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+            var index=Math.floor((Math.random()*imagenes.length));
+     
+            // cambiamos la imagen
+            document.getElementById("imagen").src=imagenes[index];
+        }
+     
+        /**
+        * Función que se ejecuta una vez cargada la página
+        */
+        onload=function()
+        {
+            // Cargamos una imagen aleatoria
+            rotarImagenes();
+     
+            // Indicamos que cada 5 segundos cambie la imagen
+            setInterval(rotarImagenes,5000);
+        }
+    </script>
+</head>
+<body>
+    
+
+      <div class="container-cabecera">
+      <header class="cabecera">
+      <a href="https://www.youtube.com/channel/UCA2ZALM3a2a-U4ouXOyXT8Q?view_as=subscriber" target="_blank">  <img src="logo.jpg" title="logo-TauronRX" height="60px" id="logo-tauronrx"> </a>
+        <a href="anime-list.html" class="enlace-barra">Anime list</a>
+        <a href="categorias.html" class="enlace-barra2">Categorias</a>
+      </header>
+
+    </div>
+
+    <div class="container-contenido">
+        <h1 id="titulo-pagina">YoVeoAnime</h1>
+
+        <div class="imagenes-cambiando">
+        <img src="" id="imagen" width="400px">
+        </div>
+
+
+        <div class="container-tendencias">
+            <h2 id="titulo-tendencias">Tendencias</h2>
+
+
+            <div class="enlaces-tendencias">
+            <img src="naruto.jpg" title="Naruto" width="200px" id="tendencia-naruto">
+            <a href="overlord.html">  <img src="overlord-tendencias.jpg" title="Overlord" width="260px" class="tendencia-zoom"> </a>
+            <img src="one-piece.jpg" title="one-piece" width="260px" class="tendencia-zoom">
+            <img src="dragon-ball.jpg" title="dragon-ball" width="280px" class="tendencia-zoom">
+            </div>
+
+            
+
+
+        </div>
+    
+    <div class="parte-final-inicio">
+        <p>Aviso: esta página está en desarrollo, se irán agregando animes con el tiempo.</p>
+    </div>
+
+
+    </div>
+
+   
+
+    
+</body>
+
+</html>

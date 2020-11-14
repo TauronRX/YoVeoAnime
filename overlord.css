@@ -1,0 +1,464 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    color: #ffff;
+}
+
+.cabecera{
+    width: 100%;
+    height: 80px;
+    background: rgb(54, 54, 54);
+}
+
+#logo-tauronrx{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 30px;
+
+}
+
+.container-cabecera{
+    display: flex;
+}
+
+.container-cabecera > p{
+    margin: 0;
+}
+
+.enlace-barra{
+    text-decoration: none;
+    color: #ffff;
+    font-family: fantasy;
+    margin-left: 1150px;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.enlace-barra2{
+    text-decoration: none;
+    color: #ffff;
+    font-family: fantasy;
+    margin-left: 1280px;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.container-contenido{
+    background: rgb(32, 32, 32);
+    width: 100%;
+    height: 1800px;
+}
+
+#titulo-pagina{
+    text-align: center;
+    margin-top: 0%;
+    font-size: 100px;
+    font-family: 'Do Hyeon', sans-serif;
+    color: rgb(255, 255, 134);
+}
+
+#titulo-pagina:hover{
+    color: pink;
+    transition: all .3s;
+}
+
+a:hover{
+    opacity: .6;
+    transition: all .3s;
+}
+
+.parte-final-inicio{
+    position: absolute;
+    top: 235%;
+    font-family: fantasy;
+    left: 33%;
+}
+
+.enlace-barra3{
+    text-decoration: none;
+    color: #ffff;
+    font-family: fantasy;
+    margin-left: 1050px;
+    position: absolute;
+    margin-top: 35px;
+}
+
+#imagen-overlord-propio{
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.imagen-nombre-anime{
+    display: flex;
+    
+}
+
+#nombre-overlord-propio{
+    font-family: fantasy;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+#transmision-propio-overlord{
+    font-family: fantasy;
+    position: absolute;
+    top: 56%;
+    left: 36%;
+    font-size: 20px;
+}
+
+.informacion-overlord{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Alata', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.información-anime{
+    position: absolute;
+    left: 25%;
+    font-family: fantasy;
+    font-size: 20px;
+    margin-top: 90px;
+    color: rgb(215, 113, 255);
+}
+
+.edad-generos-overlord{
+    display: flex;
+}
+
+.separacion-generos{
+    margin-left: 350px;
+}
+
+.episodios-duracion{
+    display: flex;
+}
+
+.separacion-generos2{
+    margin-left: 370px;
+}
+
+.episodios-anime-overlord{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    
+}
+
+#title-episodios-overlord{
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+.episodios-overlord-lista{
+    width: 40%;
+    height: 1400%;
+    background: rgb(66, 66, 66);
+    position: absolute;
+    left: 30%;
+    border-radius: 10px;
+}
+
+.capitulos-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 20px;
+}
+
+.enlaces-capitulos-overlord{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 20px;
+}
+
+.enlaces-capitulos-overlord:hover{
+    color: pink;
+    transition: all .3s;
+}
+
+#linea{
+    position: relative;
+    top: 7%;
+}
+
+#episodio2-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 60px;
+}
+
+#enlace-overlord2{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 60px;
+}
+
+#linea2{
+    position: relative;
+    top: 14%;
+}
+
+#episodio3-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 100px;
+}
+
+#enlace-overlord3{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 100px;
+}
+
+#linea3{
+    position: relative;
+    top: 20%;
+}
+
+#episodio4-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 140px;
+}
+
+#enlace-overlord4{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 140px;
+}
+
+#linea4{
+    position: relative;
+    top: 25%;
+}
+
+#episodio5-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 180px;
+}
+
+#enlace-overlord5{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 180px;
+}
+
+#linea5{
+    position: relative;
+    top: 31%;
+}
+
+#episodio6-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 220px;
+}
+
+#enlace-overlord6{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 220px;
+}
+
+#linea6{
+    position: relative;
+    top: 37%;
+}
+
+#episodio7-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 260px;
+}
+
+#enlace-overlord7{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 260px;
+}
+
+#linea7{
+    position: relative;
+    top: 43%;
+}
+
+#episodio8-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 300px;
+}
+
+#enlace-overlord8{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 300px;
+}
+
+#linea8{
+    position: relative;
+    top: 49%;
+}
+
+#episodio9-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 340px;
+}
+
+#enlace-overlord9{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 340px;
+}
+
+#linea9{
+    position: relative;
+    top: 55%;
+}
+
+#episodio10-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 380px;
+}
+
+#enlace-overlord10{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 380px;
+}
+
+#linea10{
+    position: relative;
+    top: 60%;
+}
+
+#episodio11-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 420px;
+}
+
+#enlace-overlord11{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 420px;
+}
+
+#linea11{
+    position: relative;
+    top: 66%;
+}
+
+#episodio12-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 460px;
+}
+
+#enlace-overlord12{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 460px;
+}
+
+#linea12{
+    position: relative;
+    top: 72%;
+}
+
+#episodio13-overlord{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 2%;
+    margin-top: 500px;
+}
+
+#enlace-overlord13{
+    text-decoration: none;
+    color: yellow;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left: 80%;
+    margin-top: 500px;
+}
